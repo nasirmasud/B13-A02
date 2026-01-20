@@ -98,24 +98,6 @@ nav .wide-nav {
   margin: -3px 5px;
 }
 
-/* ............. */
-/* ............. */
-/* ............. */
-/* ............. */
-
-/* .hero-buttons .message {
-  background-color: transparent;
-  border: 1px solid #FFFFFF;
-  color: #FFFFFF;
-} */
-
-/* .burger-menu {
-  margin-right: 0 auto
-} */
-/* ............. */
-/* ............. */
-/* ............. */
-/* ............. */
 #hero {
   margin: 0 auto;
   background-image: url("./assets/hero-bg.png");
@@ -784,4 +766,16 @@ footer p {
     display: none;
   }
 
+}
+
+/* Smooth animations */
+
+.menu p:hover,
+.btn:hover,
+.btn-trans:hover,
+.features-content-card .content-card:hover,
+.social button:hover,
+.footer-social p:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease;
 }
